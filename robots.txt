@@ -1,4 +1,5 @@
+
 User-agent: *
 Allow: /
 
-Sitemap: https://sandro-transport.de/sitemap.xml
+Sitemap: https://sandroabashishvili.github.io/sandro-transport/sitemap.xml

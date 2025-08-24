@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://sandro-transport.de/</loc>
+    <loc>https://sandroabashishvili.github.io/sandro-transport/</loc>
     <lastmod>2025-08-24</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://sandro-transport.de/#leistungen</loc>
+    <loc>https://sandroabashishvili.github.io/sandro-transport/#leistungen</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sandro-transport.de/#preise</loc>
+    <loc>https://sandroabashishvili.github.io/sandro-transport/#preise</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sandro-transport.de/#kontakt</loc>
+    <loc>https://sandroabashishvili.github.io/sandro-transport/#kontakt</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://sandro-transport.de/#impressum</loc>
+    <loc>https://sandroabashishvili.github.io/sandro-transport/#impressum</loc>
     <priority>0.5</priority>
   </url>
 </urlset>
