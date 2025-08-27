@@ -35,11 +35,15 @@
   <!-- Fonts & CSS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    html{scroll-behavior:smooth}
-    body{font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+  html{scroll-behavior:smooth}
+  body{font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+  :where(h1,h2){text-wrap:balance;}
+  .anchor-link{opacity:0; margin-left:.5rem; text-decoration:none;}
+  h2:hover .anchor-link, h3:hover .anchor-link{opacity:.6;}
+  .anchor-link:focus{opacity:1; outline:2px solid currentColor;}
   </style>
 
   <!-- Schema.org LocalBusiness -->
@@ -69,6 +73,7 @@
   </script>
 </head>
 <body class="bg-slate-100 text-slate-800 antialiased">
+  <a href="#leistungen" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 bg-slate-900 text-white px-3 py-2 rounded">Zum Inhalt springen</a>
   <!-- Header -->
   <header class="sticky top-0 z-50 backdrop-blur bg-white/90 border-b border-slate-200 shadow-sm">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
@@ -104,7 +109,14 @@
       </div>
       <!-- Bild rechts -->
       <div class="flex justify-center md:justify-end">
-        <img src="trailer.webp" alt="Transporter mit Anhänger in Kassel – Sandro Transport" class="w-full max-w-md rounded-2xl shadow-lg" aria-label="Transporter mit Anhänger" loading="lazy">
+        <img
+          src="trailer.webp"
+          alt="VW Touran (7-Sitzer) mit Anhänger – Umzugshilfe & Transport in Kassel (Sandro Transport)"
+          class="w-full max-w-md rounded-2xl shadow-lg"
+          aria-label="Transporter mit Anhänger"
+          loading="lazy"
+          decoding="async"
+        >
       </div>
     </div>
   </section>
@@ -143,7 +155,7 @@
   <!-- Leistungen -->
   <section id="leistungen" class="bg-white border-y border-gray-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      <h2 class="text-2xl md:text-3xl font-bold text-center mb-12 drop-shadow-sm">Meine Leistungen</h2>
+  <h2 class="text-2xl md:text-3xl font-bold text-center mb-12 drop-shadow-sm">Meine Leistungen <a class="anchor-link" href="#leistungen" aria-label="Abschnittslink">#</a></h2>
       <div class="grid md:grid-cols-2 gap-6">
         <!-- Karte 1 -->
         <article class="bg-gray-50 rounded-2xl p-6 shadow-sm hover:shadow-md transition">
@@ -181,7 +193,7 @@
   <!-- Preise & Zahlung -->
 <section id="preise" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
   <div class="md:flex md:items-end md:justify-between mb-8">
-    <h2 class="text-2xl md:text-3xl font-bold drop-shadow-sm">Preise & Zahlungsarten</h2>
+  <h2 class="text-2xl md:text-3xl font-bold drop-shadow-sm">Preise & Zahlungsarten <a class="anchor-link" href="#preise" aria-label="Abschnittslink">#</a></h2>
     <p class="text-gray-600 mt-2 md:mt-0">Transparente Konditionen – ohne versteckte Kosten.</p>
   </div>
 
@@ -267,7 +279,7 @@
 <!-- FAQ -->
 <section id="faq" class="bg-white border-y border-gray-200">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-    <h2 class="text-2xl md:text-3xl font-bold text-center mb-8">Häufige Fragen (FAQ)</h2>
+  <h2 class="text-2xl md:text-3xl font-bold text-center mb-8">Häufige Fragen (FAQ) <a class="anchor-link" href="#faq" aria-label="Abschnittslink">#</a></h2>
     <div class="grid md:grid-cols-2 gap-6">
 
       <details class="bg-gray-50 rounded-2xl p-5 shadow-sm">
@@ -310,7 +322,7 @@
     <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-white">
       <div class="grid md:grid-cols-2 gap-10 items-center">
         <div>
-          <h2 class="text-2xl md:text-3xl font-bold drop-shadow-sm">Kontakt</h2>
+          <h2 class="text-2xl md:text-3xl font-bold drop-shadow-sm">Kontakt <a class="anchor-link" href="#kontakt" aria-label="Abschnittslink">#</a></h2>
           <p class="mt-3 text-white/90">Schreiben oder anrufen – ich melde mich schnell zurück.</p>
           <div class="mt-6 space-y-3 text-base">
             <div class="flex items-center gap-3"><span class="opacity-80">📞</span> <a class="underline decoration-white/30 hover:decoration-white" href="tel:+4915211084360">+49 1521 1084360</a></div>
@@ -339,7 +351,7 @@
 
   <!-- Impressum / Rechtliches -->
   <section id="impressum" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
-    <h2 class="text-xl md:text-2xl font-bold mb-4 drop-shadow-sm">Impressum & Rechtlicher Hinweis</h2>
+  <h2 class="text-xl md:text-2xl font-bold mb-4 drop-shadow-sm">Impressum & Rechtlicher Hinweis <a class="anchor-link" href="#impressum" aria-label="Abschnittslink">#</a></h2>
     <div class="prose prose-gray max-w-none">
       <p><strong>Hinweis:</strong> Ich biete <em>keine gewerbliche Personenbeförderung</em> an. Der Schwerpunkt liegt auf Transporthilfe, kleinen Umzügen und familiärer Unterstützung.</p>
       <p>Inhaber: Sandro Abashishvili · Standort: Kassel · Kontakt: <a href="mailto:sandroabashishvili@gmail.com">sandroabashishvili@gmail.com</a></p>
@@ -355,13 +367,7 @@
   </footer>
 
   <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);} 
-    gtag('js', new Date());
-    gtag('config', 'G-XXXXXXXXXX');
-
     // Jahr
     document.getElementById('year').textContent = new Date().getFullYear();
 
