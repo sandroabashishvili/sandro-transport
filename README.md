@@ -5,7 +5,7 @@ Flexibel · Persönlich · Fair – Transport und Umzugshilfe mit Transporter bi
 
 **Live-Demo:** [https://sandroabashishvili.github.io/sandro-transport/](https://sandroabashishvili.github.io/sandro-transport/)
 
-![Hero Screenshot](./images/hero-transport.webp)
+![Hero Screenshot](./images/hero-transport-v2.webp)
 
 ---
 
@@ -16,8 +16,8 @@ Flexibel · Persönlich · Fair – Transport und Umzugshilfe mit Transporter bi
 - `legal/datenschutz.html` – Datenschutzhinweise
 - `assets/css/site.css` – eigene Zusatzstile  
 - `assets/js/main.js` – Jahr, Smooth Scroll und Kontaktformular  
-- `images/hero-transport.webp` – Hero-Bild (optimiert, WebP)
-- `images/social-card-v2.jpg` – Social sharing preview (1200×630)
+- `images/hero-transport-v2.webp` – Hero-Bild (optimiert, WebP)
+- `images/social-card-v3.jpg` – Social sharing preview (1200×630)
 - `images/favicon.png` – Website-Icon (512×512)  
 - `robots.txt`, `sitemap.xml` – SEO & Indexierung  
 - `404.html` – Fehlerseite  
