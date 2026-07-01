@@ -17,7 +17,7 @@ Flexibel · Persönlich · Fair – Transport und Umzugshilfe mit Transporter bi
 - `assets/css/site.css` – eigene Zusatzstile  
 - `assets/js/main.js` – Jahr, Smooth Scroll und Kontaktformular  
 - `images/hero-transport.webp` – Hero-Bild (optimiert, WebP)
-- `images/social-card.jpg` – Social sharing preview (1200×630)
+- `images/social-card-v2.jpg` – Social sharing preview (1200×630)
 - `images/favicon.png` – Website-Icon (512×512)  
 - `robots.txt`, `sitemap.xml` – SEO & Indexierung  
 - `404.html` – Fehlerseite  
@@ -26,11 +26,11 @@ Flexibel · Persönlich · Fair – Transport und Umzugshilfe mit Transporter bi
 
 ## ✨ Features
 
-- Responsives Design mit **TailwindCSS** (CDN)  
+- Responsives Design mit eigener lokaler CSS-Datei
 - **SEO-Optimierung**: Canonical, Open Graph, Twitter Cards  
 - **Schema.org LocalBusiness** – bessere Sichtbarkeit in Google Maps / Local Search  
 - **Barrierefreiheit**: alt-Texte, aria-Labels, semantische Struktur  
-- **Einfache Kontaktaufnahme**: E-Mail-Link und Mailto-Formular  
+- **Status klar sichtbar**: Service in Vorbereitung, aktuell noch nicht aktiv
 - **Google Analytics** (optional, ID selbst eintragen)  
 
 ---
