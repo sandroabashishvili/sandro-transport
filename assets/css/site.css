@@ -23,10 +23,13 @@ summary::-webkit-details-marker { display: none; }
   text-align: center;
 }
 .hero-image {
-  max-width: 36rem;
+  max-width: 42rem;
   height: auto;
   object-fit: contain;
   object-position: center;
+}
+.hero-visual {
+  align-self: center;
 }
 .site-link { color: #7c2d12; font-weight: 700; }
 .site-link:hover { color: #9a3412; text-decoration: underline; }
